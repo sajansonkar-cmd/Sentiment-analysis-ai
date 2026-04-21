@@ -1,5 +1,16 @@
-review
-I love this product
-This is bad
-Amazing experience
-Worst service ever
+review,sentiment
+I love this product,positive
+Amazing experience,positive
+This is great,positive
+Absolutely fantastic,positive
+Very happy with this,positive
+Worst product ever,negative
+I hate this,negative
+Very bad experience,negative
+Not worth the money,negative
+Terrible quality,negative
+This is okay,neutral
+Average experience,neutral
+Nothing special,neutral
+It works fine,neutral
+Could be better,neutral
