@@ -2,16 +2,46 @@
 <html>
 <head>
     <title>Sentiment Analysis</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            text-align: center;
+            padding-top: 50px;
+        }
+        textarea {
+            width: 400px;
+            height: 100px;
+            padding: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
+
     <h1>Sentiment Analysis</h1>
+
     <form method="POST">
-        <textarea name="review" rows="5" cols="40"></textarea><br><br>
+        <textarea name="review" placeholder="Enter your text..."></textarea><br><br>
         <button type="submit">Analyze</button>
     </form>
 
     {% if result %}
-        <h2>Result: {{ result }}</h2>
+        <div class="result">
+            Result: {{ result }}
+        </div>
     {% endif %}
+
 </body>
 </html>
