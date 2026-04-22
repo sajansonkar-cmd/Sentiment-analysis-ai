@@ -2,3 +2,4 @@ flask
 textblob
 gunicorn
 textblob
+pandas
